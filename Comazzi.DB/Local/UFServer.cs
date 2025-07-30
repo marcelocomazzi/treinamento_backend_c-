@@ -1,7 +1,7 @@
 ﻿
 namespace Comazzi.DB.Local
 {
-    public class UF
+    public class UFServer
     {
         public PaisServer pais { get; set; }
 

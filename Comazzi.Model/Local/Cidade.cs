@@ -1,12 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace Comazzi.DB.Local
 {
-    class Cidade
+    public class Cidade
     {
+        public int cidade_id { get; set; }
+
+        public UF uf { get; set; }
+
+        public string nome { get; set; }
+
+        public string ibge { get; set; }
     }
 }

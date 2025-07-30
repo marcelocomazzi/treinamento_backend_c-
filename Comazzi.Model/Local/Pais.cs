@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Comazzi.DB.Local
+﻿namespace Comazzi.DB.Local
 {
-    class Pais
+    public class Pais
     {
+        public String pais_id { get; set; }
+
+        public string nome { get; set; }
+
+        public string bacen { get; set; }
     }
 }
